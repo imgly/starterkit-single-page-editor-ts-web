@@ -104,7 +104,7 @@ export function setupSettings(engine: CreativeEngine): void {
   // Configure page title display
 
   // Show titles above each page for multi-page navigation
-  engine.editor.setSetting('page/title/show', true);
+  engine.editor.setSetting('page/title/show', false);
 
   // Show title even when only one page exists
   engine.editor.setSetting('page/title/showOnSinglePage', true);

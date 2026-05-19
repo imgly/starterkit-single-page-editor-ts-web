@@ -19,13 +19,15 @@ import { resolveAssetPath } from './imgly/resolveAssetPath';
 const config = {
   userId: 'starterkit-single-page-editor-user',
 
+  // IMG.LY CDN (for quick testing only, NOT recommended for production)
+
+  // Local assets for development
+
   // Single-page mode is enabled via featureFlags
   featureFlags: {
     singlePageMode: true
-  }
+  },
 
-  // Local assets
-  // baseURL: `/assets/`,
 };
 
 // ============================================================================
